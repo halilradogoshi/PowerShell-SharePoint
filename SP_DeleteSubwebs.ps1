@@ -1,14 +1,19 @@
-Add-PSSnapin "Microsoft.SharePoint.PowerShell"
+﻿Add-PSSnapin "Microsoft.SharePoint.PowerShell"
 
 #PowerShell Scripts - SharePoint 
+
 
 #Script: Iterate site webs
 #Script description: Iterate through the a site and show all webs on the site 
 
-#Author: Halil Radogoshi www.halilradogoshi.com
+
+
+#Author: Halil Radogoshi LILI www.halilradogoshi.com
+
 
 
 $mainSite = Get-SPSite <SiteURL>
+
 
 function IterateSite($sites){    
 
